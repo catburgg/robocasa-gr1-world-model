@@ -45,9 +45,9 @@ python robocasa/scripts/download_tabletop_assets.py -y
 
 适配到我们自己架构的修改：
 
-把 robosuite 中的 /path/to/robosuite/robosuite/models/assets/robots/gr1/robot.xml 改成我们这边修改过的 xml 文件，即这个仓库下的 robot.xml 文件
+把 robosuite 中的 /path/to/robosuite/robosuite/models/assets/robots/gr1/robot.xml 改成我们这边修改过的 xml 文件，即这个仓库下的 robot.xml 文件，修改过后就可以把 robot.xml 在我们这个 repo 里面删掉了
 
-
+具体测试脚本见 GR00T 仓库的 README.md
 
 ## Demo All Tasks
 Run the following command to demo any available task. It sends random actions to the robot and renders an egocentric video, offering a quick, visual understanding of each task:
